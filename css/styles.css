@@ -1,0 +1,203 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  text-align: center;
+}
+
+h2, h3 {
+  font-family: "Montserrat"
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+#title {
+  text-align: left;
+}
+
+/* containers */
+
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #13abc4;
+  color: #fff;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.titledescript {
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.storm {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.psylocke {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.nightcrawler {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.em {
+  color: white;
+}
+
+.pricingtext {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.plan {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* features section */
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+}
+
+.feature-text {
+  font-weight: 600;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ffa500;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #13abc4;
+}
+
+/* Testimonials */
+/* #testimonials {
+  background-color: #13abc4;
+} */
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #13abc4;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.hero-type {
+  font-weight: 600;
+}
+
+/* call to action */
+/* #cta {
+  background-color: #13abc4;
+  font-family: "Montserrat"
+} */
+
+.cta-text {
+  padding: 100px 90px 10px;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 80px;
+}
+
+.copyright {
+  padding: 30px;
+}
+
+.social-image {
+  padding: 10px;
+}
